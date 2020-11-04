@@ -1,0 +1,27 @@
+input,
+textarea,
+button {
+  display: block;
+  margin: 10px;
+  box-shadow: 5px 5px 2px silver;
+
+  transition: ease 0.5s;
+}
+
+form {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #eee;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 20px;
+  transform: rotate(360deg);
+}
